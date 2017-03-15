@@ -1,0 +1,32 @@
+{
+  "code": 200,
+  "message": "获取成功",
+  "slides":[
+      {"src":"static/img/2.jpg","alt":""},
+      {"src":"static/img/1.jpg","alt":""},
+      {"src":"static/img/3.jpg","alt":""}
+  ],
+  "dongTais":[
+      {"name":"DK","date":"2017-3-12","msg":"我的第一条动态"}
+  ],
+  "articles":[
+      {"src":"static/img/avatar.jpg","name":"DK","date":"2017-3-12","title":"Vue.js简介",
+          "msg":"Vue.js（读音 /vjuː/, 类似于 view） 是一套构建用户界面的 渐进式框架。与其他重量级框架不同的是，Vue 采用自底向上增量开发的设计。Vue 的核心库只关注视图层，并且非常容易学习，非常容易与其它库或已有项目整合。另一方面，Vue 完全有能力驱动采用单文件组件和 Vue 生态系统支持的库开发的复杂单页应用。"
+      }
+  ],
+  "cols": [
+      {
+          "title":"Vue2.0路由缓存",
+          "msg":"把要缓存的部分用<keep-alive></keep-alive>标签包裹起来"
+      },{
+          "title":"刚进入页面就默认进入某个路由",
+          "msg":"可用路由重定向解决。path: '/',redirect: '/XXX（XXX为你要默认设置的路由页面）'"
+      },{
+          "title":"static文件夹与src中的assets",
+          "msg":"外部文件放在src里是不能被index.html所访问到的，但是能访问到static文件夹里"
+      },{
+          "title":"模块的懒加载",
+          "msg":"path: '/home',component: resolve => require(['../views/Home.vue'], resolve)"
+      }
+  ]
+}
